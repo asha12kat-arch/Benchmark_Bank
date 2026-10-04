@@ -11,7 +11,7 @@ interface Props {
   data: TransferData;
 }
 
-const AVAILABLE_BALANCE = 70000;
+const AVAILABLE_BALANCE = 15000000;
 
 export default function TransferReviewScreen({ navigate, data }: Props) {
   const { recipient, amount, memo } = data;
@@ -175,7 +175,7 @@ export default function TransferReviewScreen({ navigate, data }: Props) {
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
 
             {[
-              { label: "From", value: "Anthony Franklin & Theresa Princess" },
+              { label: "From", value: "Su Kil Tark" },
               {
                 label: "To",
                 value: `${recipient.name} (${recipient.account})`,
@@ -222,7 +222,7 @@ export default function TransferReviewScreen({ navigate, data }: Props) {
             >
               <p className="font-['Geist:Medium',sans-serif] text-[13px] text-[#f87171]">
                 Insufficient funds. This transfer exceeds the
-                $70,000.00 available balance and cannot be completed.
+                $15,000,000.00 available balance and cannot be completed.
               </p>
             </div>
           )}
