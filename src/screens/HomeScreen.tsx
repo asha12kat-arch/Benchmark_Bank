@@ -139,7 +139,7 @@ export default function HomeScreen({ navigate }: Props) {
           {/* Greeting */}
           <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full">
             <p className="font-['Young_Serif:Regular',sans-serif] not-italic relative shrink-0 text-[28px] text-white">
-              Anthony Franklin & Theresa Princess
+              Su Kil Tark
             </p>
 
             <p className="font-['Geist:Regular',sans-serif] font-normal relative shrink-0 text-[#94a3b8] text-[14px]">
@@ -189,20 +189,20 @@ export default function HomeScreen({ navigate }: Props) {
             </div>
 
             <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[24px] sm:text-[40px] text-white whitespace-nowrap">
-              {balanceVisible ? "$70,000.00" : "••••••••"}
+              {balanceVisible ? "$15,000,000.00" : "••••••••"}
             </p>
 
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
 
-            {/* Joint Account */}
+            {/* Account */}
             <div className="content-stretch flex items-start justify-between relative shrink-0 w-full">
               <div className="content-stretch flex flex-col gap-[2px] items-start relative shrink-0">
                 <p className="font-['Geist:Regular',sans-serif] font-normal relative shrink-0 text-[#94a3b8] text-[13px]">
-                  Joint Account
+                  Account
                 </p>
 
                 <p className="font-['Geist:SemiBold',sans-serif] font-semibold relative shrink-0 text-[15px] text-white">
-                  {balanceVisible ? "$70,000.00" : "••••••"}
+                  {balanceVisible ? "$15,000,000.00" : "••••••"}
                 </p>
               </div>
             </div>
@@ -385,7 +385,7 @@ export default function HomeScreen({ navigate }: Props) {
                   </p>
 
                   <p className="font-['Geist:SemiBold',sans-serif] font-semibold relative shrink-0 text-[13px] text-white">
-                    Anthony Franklin & Theresa Princess
+                    Su Kil Tark
                   </p>
                 </div>
 
