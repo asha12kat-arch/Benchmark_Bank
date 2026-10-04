@@ -64,7 +64,7 @@ export default function CardsScreen({ navigate }: Props) {
                   </p>
 
                   <p className="font-['Geist:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[13px] text-white">
-                    ANTHONY FRANKLIN & THERESA PRINCESS
+                    SU KIL TARK
                   </p>
                 </div>
 
@@ -229,16 +229,10 @@ export default function CardsScreen({ navigate }: Props) {
 
             {[
               {
-                merchant: "Sarah Johnson",
-                date: "Aug 26 · 11:09 AM",
-                amount: "-$3,000.00",
-                cat: "Transfer",
-              },
-              {
-                merchant: "Sarah Johnson",
-                date: "Aug 27",
-                amount: "+$3,000.00",
-                cat: "Transfer Returned",
+                merchant: "Wired Transfer",
+                date: "2026",
+                amount: "+$15,000,000.00",
+                cat: "Deposit",
               },
             ].map(({ merchant, date, amount, cat }) => (
               <div
@@ -267,13 +261,7 @@ export default function CardsScreen({ navigate }: Props) {
                   </p>
                 </div>
 
-                <p
-                  className={`font-['Geist:SemiBold',sans-serif] font-semibold relative shrink-0 text-[14px] ${
-                    amount.startsWith("+")
-                      ? "text-[#15803d]"
-                      : "text-[#f87171]"
-                  }`}
-                >
+                <p className="font-['Geist:SemiBold',sans-serif] font-semibold relative shrink-0 text-[14px] text-[#15803d]">
                   {amount}
                 </p>
               </div>
